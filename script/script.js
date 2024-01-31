@@ -4,7 +4,7 @@ import initAnimacaoScroll from "./module/scroll-animacao.js";
 
 import TabNav from "./module/tabnav.js";
 import Modal from "./module/modal.js";
-import initTooltip from "./module/tooltip.js";
+import Tooltip from "./module/tooltip.js";
 import initDropdownMenu from "./module/dropdown-menu.js";
 import initMenuMobile from "./module/menu-mobile.js";
 import initAnimaNumeros from "./module/anima-numeros.js";
@@ -30,9 +30,11 @@ const modal = new Modal(
 );
 modal.init();
 
+const toolTip = new Tooltip(`[data-tooltip]`);
+toolTip.init();
+
 initAnimacaoScroll();
 
-initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initAnimaNumeros();

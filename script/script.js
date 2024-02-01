@@ -40,3 +40,4 @@ initFuncionamento();
 initFecthBitcoin();
 
 fetchAnimais("../../animaisapi.json", ".numeros-grid");
+initFecthBitcoin(`https://blockchain.info/ticker`, ".btc-preco");

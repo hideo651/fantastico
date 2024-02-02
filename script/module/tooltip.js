@@ -34,8 +34,6 @@ export default class Tooltip {
     tooltipBox.innerText = text;
     document.body.appendChild(tooltipBox);
     this.tooltipBox = tooltipBox;
-
-    console.log(text);
   }
 
   // Cria a tooltip e adiciona os eventos

@@ -92,8 +92,6 @@ export class Slide {
       active: index,
       next: index === last ? undefined : index + 1,
     };
-
-    console.log(this.index);
   }
 
   changeSlide(index) {

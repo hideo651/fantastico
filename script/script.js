@@ -50,5 +50,5 @@ slide.init();
 
 slide.addControl(`.custom-controls`);
 
-fetchAnimais("../../animaisapi.json", ".numeros-grid");
+fetchAnimais("./animaisapi.json", ".numeros-grid");
 initFecthBitcoin(`https://blockchain.info/ticker`, ".btc-preco");
